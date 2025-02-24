@@ -51,8 +51,8 @@ console.log('Smile');
 
 
 //Falsy
-console.log(0); // falsy
-console.log(''); // falsy
+console.log(0); 
+console.log('');
 console.log(null);
 
 
