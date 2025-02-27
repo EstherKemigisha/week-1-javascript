@@ -3,14 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Triangle Area Calculator</title>
 </head>
 
 
 <body>
-    <script src="variables.js"></script> 
 
-    <script src="operator.js"></script> 
+    <h1>Calculate Triangle Area</h1>
+
+    <script >
+        let base = parseFloat(prompt("Enter base:"));
+        let height = parseFloat(prompt("Enter height:"));
+
+        // Calculate area
+        let area = 0.5 * base * height;
+
+        // Display result
+        console.log(`The area of the triangle is ${area}`);
+        alert(`The area of the triangle is ${area}`)
+    </script> 
+
+    
     
 </body>
 </html>
+
+

@@ -1,4 +1,5 @@
-//variables
+//Asssement one
+
 /*number 1*/
 //comments can make code readable
 
@@ -54,34 +55,10 @@ easy to reuse and informative*/
 //let blankText = null
 //let lName /*undefined*/
 
-//Exercise 2
-//No 1
-let challenge = '30 Days Of JavaScript';
 
-console.log(challenge);
 
-console.log(challenge.length);
 
-console.log(challenge.toUpperCase());
 
-console.log(challenge.toLowerCase());
 
-let firstWord = challenge.substring(0, 2); // '30'
-console.log(firstWord);
 
-let slicedPhrase = challenge.substring(3); // Starting from index 3 to the end of the string
-console.log(slicedPhrase);
-
-let containsScript = challenge.includes('Script');
-console.log(containsScript);
-
-let wordsArray = challenge.split(' ');
-console.log(wordsArray);
-
-let newChallenge = challenge.replace('JavaScript', 'Python');
-console.log(newChallenge);
-
-let companies = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon';
-let companiesArray = companies.split(', ');
-console.log(companiesArray)
 
